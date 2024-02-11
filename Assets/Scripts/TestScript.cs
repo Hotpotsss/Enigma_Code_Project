@@ -23,7 +23,7 @@ public class NewBehaviourScript : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void BindWebGLTexture(int texture);
 
-    void Start()
+    void Awake()
     {
         Hello();
 
