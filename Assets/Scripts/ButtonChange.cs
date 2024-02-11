@@ -17,4 +17,5 @@ public class ButtonChange : MonoBehaviour
     {
         Debug.Log("You have clicked the button!");
         GetComponent<Image>().color = Color.red;
+    }
 }
