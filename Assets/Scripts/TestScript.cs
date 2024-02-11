@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Runtime.InteropServices;
+using System;
 
 public class NewBehaviourScript : MonoBehaviour
 {
@@ -38,5 +39,11 @@ public class NewBehaviourScript : MonoBehaviour
 
         var texture = new Texture2D(0, 0, TextureFormat.ARGB32, false);
         BindWebGLTexture(texture.GetNativeTexturePtr());
+    }
+
+    //Additional function.
+    private void BindWebGLTexture(IntPtr intPtr)
+    {
+        throw new NotImplementedException();
     }
 }
