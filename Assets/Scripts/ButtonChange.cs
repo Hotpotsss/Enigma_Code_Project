@@ -7,14 +7,14 @@ public class ButtonChange : MonoBehaviour
 {
     public Button myButton;
 
-    void Start()
+    /*void Start()
     {
         Button btn = myButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
-    }
+    }*/
 
     void TaskOnClick()
     {
         Debug.Log("You have clicked the button!");
-    }
+        GetComponent<Image>().color = Color.red;
 }
