@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ButtonChange : MonoBehaviour
 {
     public Button myButton;
-
+    //My Comment...
     void Start()
     {
         Button btn = myButton.GetComponent<Button>();
